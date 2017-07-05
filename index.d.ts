@@ -1,4 +1,4 @@
-export declare class EventEmitter {
+export default class EventEmitter {
   on   (event: string, callback: Function, ctx?: any): EventEmitter;
   once (event: string, callback: Function, ctx?: any): EventEmitter;
   emit (event: string, ...args: any[]): EventEmitter;
